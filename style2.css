@@ -22,4 +22,25 @@ a, a:hover{
       position:relative;
       border: 1px solid #01ca8a8f;
       box-shadow: 0 0 0 4em #01ca8a8f inset;
+      transition: all 350ms ease;
+}
+.btn-green i{
+      margin-right: 6px;
+}
+.btn-green:hover{
+      box-shadow: 0 0 0 0 #01ca8b inset;
+      background: #fff;
+      color: #01ca8b;
+}
+.btn-trensparent{
+      border: 1px solid #fff;
+}
+header{
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      width: 100%;
+      border-bottom: 1px solid #fff;
+      background: #000;
 }
