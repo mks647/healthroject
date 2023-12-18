@@ -60,11 +60,37 @@
             </div>
         </div>
     </header>
+    <section class ="banner" style="background-image: url(./imagec:\Users\bipin\Downloads\AdobeStock_633895277_Preview.jpeg);">
+        <div class="container">
+            <div class ="banner-content">
+            <img src="images c:\Users\bipin\Downloads\AdobeStock_633895277_Preview.jpeg" alt="c:\Users\bipin\Downloads\AdobeStock_633895277_Preview.jpeg">
+            <h1> our Expreation  at your service </h1>
+            </div>
+            <div class="service">
+                <a href="Javasript:void(0);">
+                    <dic class="servic-content">
+                        Our servce Provider
+                    </dic>
+                    <div class="service-btn">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="service-icon">
+                        <i class ="fas fa-heartbeat"></i>
+                    </div>
+                </a>       
+            </div>
+        </div>
+    </section>
     <sript>
         var header= document.getElementsByTagName("header");
         window.onscroll=function(){scrollFunction()};
         function scrollFunction(){
-            if(document.body.srolltop>200)
+            if(document.body.srolltop>200 || document.documentElement.srolltop>200){
+                header[0].setAttribute("class","header-social");
+            }
+            else{
+                header [0].removeAttribute("class")
+            }
         }
     </sript>
 <body>
