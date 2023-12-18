@@ -135,5 +135,14 @@ header{
       background-repeat: no-repeat;
       padding: 16em 0 14em 0;
       box-shadow:-5px -px 30px 5px #e1f3ff 5px 5px 30px 5px #e1f3ff;
-
+}
+.banner.content{
+      width:80%;
+}
+.banner-content h1{
+      color: #fff;
+      font-size: 80px;
+      font-weight: 800;
+      margin-top: 10px;
+      line-height:80px;
 }
