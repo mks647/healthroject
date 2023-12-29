@@ -130,19 +130,19 @@ header{
 }
 /*Banner*/
 .banner{
-      background-position: 50% 0%;
-      background-size: cover;
+      background-position: 200% 0%;
+      background-size: full cover;
       background-repeat: no-repeat;
       padding: 16em 0 14em 0;
       box-shadow:-5px -px 30px 5px #e1f3ff 5px 5px 30px 5px #e1f3ff;
 }
 .banner.content{
-      width:80%;
+      width:100%;
 }
 .banner-content h1{
       color: #fff;
       font-size: 80px;
-      font-weight: 800;
-      margin-top: 10px;
-      line-height:80px;
+      font-weight: 10px;
+      margin-top: 5px;
+      line-height:10px;
 }
