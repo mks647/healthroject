@@ -54,7 +54,7 @@ header{
       animation-name: example;
       animation-duration: 0.8s;
 }
-@keyframs example{
+@keyframes example{
       from{top:-200px;}
       to{top:0;}
 }
@@ -126,7 +126,7 @@ header{
       transition: 0.2s ease-in-out;
 }
 .header-social ul li a:hoveri{
-      color
+      color:#01ca8b;
 }
 /*Banner*/
 .banner{
@@ -145,4 +145,10 @@ header{
       font-weight: 10px;
       margin-top: 5px;
       line-height:10px;
+}
+.service{
+      border-radius: 10px;
+      background: #ffffff45;
+      border: 1px solid #dfdfdf94;
+      margin-top: 100px;
 }
