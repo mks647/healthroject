@@ -10,14 +10,14 @@ a, a:hover{
       margin-top:20px;
 }
 .border{
-      border-right: 1px solid rgba(209, 23, 23, 0.4);
+      border-right: 1px solid rgba(223, 199, 199, 0.4);
 }
 .btn-green{
       display: inline-block;
       text-transform:capitalize;
       font-size: 16px;
       font-weight: 900;
-      color: #fff;
+      color: #72cab0;
       padding:10px 30px;
       border-radius:2px;
       position:relative;
@@ -30,11 +30,11 @@ a, a:hover{
 }
 .btn-green:hover{
       box-shadow: 0 0 0 0 #01ca8b inset;
-      background: #fff;
+      background: #8b8484;
       color: #01ca8b;
 }
 .btn-trensparent{
-      border: 1px solid #fff;
+      border: 1px solid #b3a8a8;
 }
 /*Header*/
 header{
@@ -43,12 +43,12 @@ header{
       left: 0;
       z-index: 1;
       width: 100%;
-      border-bottom: 1px solid #fff;
+      border-bottom: 1px solid #6e1e1e;
       background: #ebdfdf65;
 }
 .header-active{
       position: fixed;
-      background: #d0d0d4; 
+      background: #4444a7; 
       z-index:1;
       top:0;
       animation-name: example;
@@ -75,7 +75,7 @@ header{
       margin: 0 20px;
 }
 .menu ul li a{
-      color: #fff;
+      color: #8d4040;
       text-transform: capitalize;
       font-weight:900;
       font-size: 14px;
@@ -85,7 +85,7 @@ header{
 .menu ul li a::before{
       content: '';
       position: absolute;
-      background: #fff;
+      background: #a58181;
       width: 0;
       height: 2px;
       bottom: -5px;
@@ -108,7 +108,7 @@ header{
       margin: 0 10px;
 }
 .header-social ul li a{
-      color:#fff;
+      color:#8b7979;
       background: rgb(255 255 255 / 0.22);
       width: 41px;
       height: 41px;
@@ -134,13 +134,13 @@ header{
       background-size: full cover;
       background-repeat: no-repeat;
       padding: 16em 0 14em 0;
-      box-shadow:-5px -px 30px 5px #e1f3ff 5px 5px 30px 5px #e1f3ff;
+      box-shadow:-5px -px 30px 5px #4186b4 5px 5px 30px 5px #1f4b68;
 }
 .banner.content{
       width:100%;
 }
 .banner-content h1{
-      color: #fff;
+      color: #634a4a;
       font-size: 80px;
       font-weight: 10px;
       margin-top: 5px;
@@ -155,10 +155,10 @@ header{
 .service a {
       display: inline-block;
       width: 33%;
-      color: #fff;
-      font-size: 30px;
+      color: #c95656;
+      font-size: 22px;
       font-weight: 800;
-      border-right: 1px solid #fff;
+      border-right: 1px solid #805353;
       padding: 34px 20px;
       margin: 0 -2px;
       height: 180px;
@@ -185,7 +185,7 @@ header{
       position: absolute;
       left: 0;
       bottom: -5px;
-      background: #fff;
+      background: #444242;
       height: 20px;
       width: 0;
       transition: o.2s ease-in-out;
@@ -216,4 +216,22 @@ header{
 .service-icon{
       font-size: 40px;
       margin-right: 22px;
+}
+.call{
+      display: 40px;
+      vertical-align:middle;
+}
+.call-number{
+      width: calc(100%-54%);
+      display: inline-block;
+      vertical-align: middle;
+}
+.call-number p{
+      font-size: 14px;
+      text-transform: uppercase;
+}
+.call-number h3{
+      margin: 0;
+      font-weight: 600;
+      letter-spacing: 1px;
 }
